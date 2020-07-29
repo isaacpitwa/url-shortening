@@ -30,6 +30,9 @@
 .s-56{
     font-size: 56px;
 }
+.light-font{
+    font-weight: 500;
+}
 
 .color-gray{
     color: var(--gray);
@@ -62,6 +65,7 @@ section.landing nav ul{
 .landing li a{
     text-decoration: none;
     color: var(--gray);
+    font-weight: 500;
 }
 .landing li{
     padding: 0 8px;
