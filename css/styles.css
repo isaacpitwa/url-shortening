@@ -52,9 +52,14 @@
 .btn-lg{
     padding: 0.8rem 2rem;
 }
+.b-radius-4{
+border-radius: 4px;
+}
 section.landing{
     padding: 3% 6%;
     background-color: #fff;
+    position: relative;
+    overflow: hidden;
 }
 section.landing nav{
     justify-content: space-between;
@@ -90,4 +95,28 @@ div.space-x{
 div.space-2x{
     height: 2rem;
     width: 100%;
+}
+
+
+.link-form-card{
+    padding: 3% 3% ;
+    z-index: 1;
+    position: absolute;
+    bottom: 3%;
+    background-color: var(--dark-violet);
+    width: 79%;
+    background-image: url('../images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link-form-card input{
+    width: 80%;
+    padding: 15px;
+    border: 0;
+}
+.link-form-card input:focus{
+    outline: none;
+}
+.link-form-card button{
+    margin-left: 20px;
 }
