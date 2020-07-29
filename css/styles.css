@@ -12,3 +12,82 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.d-flex{
+    display: flex;
+}
+.s-16{
+    font-size: 16px;
+}
+.s-18{
+    font-size: 18px;
+}
+.s-36{
+    font-size: 36px;
+}
+.s-48{
+    font-size: 48px;
+}
+.s-56{
+    font-size: 56px;
+}
+.light-font{
+    font-weight: 500;
+}
+
+.color-gray{
+    color: var(--gray);
+}
+.color-violet-gray{
+    color: var(--grayish-violet);
+}
+.action-btn{
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+    color: white;
+    padding: 0.5rem 1.2rem;
+}
+.round-btn{
+    border-radius: 48px;
+}
+.btn-lg{
+    padding: 0.8rem 2rem;
+}
+section.landing{
+    padding: 3% 6%;
+    background-color: #fff;
+}
+section.landing nav{
+    justify-content: space-between;
+}
+section.landing nav ul{
+    list-style: none;
+}
+.landing li a{
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 500;
+}
+.landing li{
+    padding: 0 8px;
+}
+.landing .landing-content{
+    padding: 6% 0;
+    
+}
+.landing-content .landing-left{
+    max-width: 50%;
+    padding: 4% 0;
+}
+.landing-content .landing-right{
+    max-width: 50%;
+    height: 100%;
+    padding-left: 10%;;
+}
+div.space-x{
+    height: 1rem;
+    width: 100%;
+}
+div.space-2x{
+    height: 2rem;
+    width: 100%;
+}
