@@ -15,6 +15,30 @@
 .d-flex{
     display: flex;
 }
+.s-16{
+    font-size: 16px;
+}
+.s-18{
+    font-size: 18px;
+}
+.s-36{
+    font-size: 36px;
+}
+.s-48{
+    font-size: 48px;
+}
+.s-56{
+    font-size: 56px;
+}
+.action-btn{
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+    color: white;
+    padding: 4px 12px;
+}
+.round-btn{
+    border-radius: 48px;
+}
 section.landing{
     padding: 3% 6%;
 }
@@ -23,4 +47,26 @@ section.landing nav{
 }
 section.landing nav ul{
     list-style: none;
+}
+.landing li a{
+    text-decoration: none;
+    color: var(--grayish-violet);
+}
+.landing li{
+    padding: 0 8px;
+}
+.landing .landing-content{
+    padding: 8% 0;
+    
+}
+.landing-content .landing-left{
+    max-width: 50%;
+}
+.landing-content .landing-right{
+    max-width: 50%;
+    height: 100%;
+    padding-left: 10%;;
+}
+.landing-content .landing-right img {
+    width: 90%;
 }
