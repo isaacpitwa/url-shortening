@@ -96,13 +96,11 @@ div.space-2x{
     height: 2rem;
     width: 100%;
 }
-
-
 .link-form-card{
     padding: 3% 3% ;
     z-index: 1;
     position: absolute;
-    bottom: 3%;
+    bottom: -3%;
     background-color: var(--dark-violet);
     width: 79%;
     background-image: url('../images/bg-shorten-desktop.svg');
@@ -119,4 +117,12 @@ div.space-2x{
 }
 .link-form-card button{
     margin-left: 20px;
+}
+
+/* statostics */
+
+.statistics{
+    text-align: center;
+    padding: 3% 6%;
+    background-color: var(--grayish-violet);
 }
