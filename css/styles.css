@@ -142,7 +142,7 @@ div.space-2x{
 .service-card .icon{
     background-color: var(--dark-violet);
     width: fit-content;
-    padding: 16px;
+    padding: 7%;
     border-radius: 50%;
     position: absolute;
     top: -17%;
