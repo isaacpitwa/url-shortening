@@ -136,6 +136,7 @@ div.space-2x{
     text-align: left;
     padding: 3%;
     position: relative;
+    margin-right: 2%;
 
 }
 .service-card .icon{
@@ -144,5 +145,5 @@ div.space-2x{
     padding: 16px;
     border-radius: 50%;
     position: absolute;
-    top: -32%;
+    top: -17%;
 }
