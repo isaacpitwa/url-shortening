@@ -68,7 +68,7 @@ section.landing nav ul{
     list-style: none;
     justify-content: space-between;
 }
-section.landing nav ul:last-child{
+section.landing nav ul.buttons{
     align-items: center;
 }
 
