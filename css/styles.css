@@ -66,7 +66,12 @@ section.landing nav{
 }
 section.landing nav ul{
     list-style: none;
+    justify-content: space-between;
 }
+section.landing nav ul.buttons{
+    align-items: center;
+}
+
 .landing li a{
     text-decoration: none;
     color: var(--gray);
@@ -98,11 +103,12 @@ div.space-2x{
 }
 .link-form-card{
     padding: 3% 3% ;
-    z-index: 1;
     position: absolute;
-    bottom: -3%;
-    background-color: var(--dark-violet);
-    width: 79%;
+    width: 82%;
+    left: 6%;
+    /* top: 100%; */
+    bottom: -18%;
+    background-color: var(--grayish-violet);
     background-image: url('../images/bg-shorten-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,11 +124,49 @@ div.space-2x{
 .link-form-card button{
     margin-left: 20px;
 }
+/* Card */
 
-/* statostics */
+/* statstics */
 
 .statistics{
     text-align: center;
-    padding: 3% 6%;
-    background-color: var(--grayish-violet);
+    padding: 10% 3% 6%;
+    background-color: #EFF1F7;
+}
+.services{
+    padding:3%;
+    align-items: flex-start;
+}
+.service-card{
+    background-color: white;
+    text-align: left;
+    padding: 3%;
+    position: relative;
+
+}
+.service-card:nth-child(3){
+    margin-top: 7%;
+}
+.service-card:nth-child(5){
+    margin-top: 11%;
+}
+.green-ladder{
+    width: 10%;
+    height: 5px;
+    background-color: var(--cyan);
+}
+.service-card .icon{
+    background-color: var(--dark-violet);
+    width: fit-content;
+    padding: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: -17%;
+}
+.ladder-1{
+margin-top: 16%;
+}
+.ladder-2{
+    margin-top: 20%;
+
 }
