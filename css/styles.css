@@ -130,14 +130,20 @@ div.space-2x{
 }
 .services{
     padding:3%;
+    align-items: flex-start;
 }
 .service-card{
     background-color: white;
     text-align: left;
     padding: 3%;
     position: relative;
-    /* margin-right: 2%; */
 
+}
+.service-card:nth-child(3){
+    margin-top: 7%;
+}
+.service-card:nth-child(5){
+    margin-top: 11%;
 }
 .green-ladder{
     width: 10%;
@@ -151,4 +157,11 @@ div.space-2x{
     border-radius: 50%;
     position: absolute;
     top: -17%;
+}
+.ladder-1{
+margin-top: 16%;
+}
+.ladder-2{
+    margin-top: 20%;
+
 }
