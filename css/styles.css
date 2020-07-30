@@ -134,7 +134,7 @@ div.space-2x{
     background-color: #EFF1F7;
 }
 .services{
-    padding:3%;
+    padding:5% 3% 3%;
     align-items: flex-start;
 }
 .service-card{
