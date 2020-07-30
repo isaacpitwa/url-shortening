@@ -136,8 +136,13 @@ div.space-2x{
     text-align: left;
     padding: 3%;
     position: relative;
-    margin-right: 2%;
+    /* margin-right: 2%; */
 
+}
+.green-ladder{
+    width: 10%;
+    height: 5px;
+    background-color: var(--cyan);
 }
 .service-card .icon{
     background-color: var(--dark-violet);
