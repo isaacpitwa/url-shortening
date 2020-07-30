@@ -170,3 +170,13 @@ margin-top: 16%;
     margin-top: 20%;
 
 }
+
+.banner{
+    text-align: center;
+    padding: 3%;
+    background-color: var(--dark-violet);
+    color: white;
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
