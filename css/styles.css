@@ -68,6 +68,10 @@ section.landing nav ul{
     list-style: none;
     justify-content: space-between;
 }
+section.landing nav ul:last-child{
+    align-items: center;
+}
+
 .landing li a{
     text-decoration: none;
     color: var(--gray);
