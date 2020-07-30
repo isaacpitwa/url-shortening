@@ -102,7 +102,7 @@ div.space-2x{
     position: absolute;
     width: 82%;
     left: 6%;
-    bottom: -69%;
+    top: 172%;
     background-color: var(--grayish-violet);
     background-image: url('../images/bg-shorten-desktop.svg');
     background-repeat: no-repeat;
@@ -126,5 +126,20 @@ div.space-2x{
 .statistics{
     text-align: center;
     padding: 10% 3% 6%;
-    background-color: var(--gray);
+    background-color: #EFF1F7;
+}
+.service-card{
+    background-color: white;
+    text-align: left;
+    padding: 3%;
+    position: relative;
+
+}
+.service-card .icon{
+    background-color: var(--dark-violet);
+    width: fit-content;
+    padding: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: -32%;
 }
