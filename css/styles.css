@@ -180,3 +180,32 @@ margin-top: 16%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* footer */
+
+footer{
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--very-dark-blue);
+    padding: 4% 6%;
+    
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul a{
+    text-decoration: none;
+    color: var(--grayish-violet);
+}
+footer h4{
+    color: white;
+    font-weight: 400;
+}
+.social-links .links li {
+    margin-right: 15px;
+
+}
+.social-links .links li :hover{
+    opacity: 0.5;
+}
