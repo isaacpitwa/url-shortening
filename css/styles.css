@@ -42,9 +42,13 @@
 }
 .action-btn{
     background-color: var(--cyan);
-    border-color: var(--cyan);
+    border:0;
     color: white;
     padding: 0.5rem 1.2rem;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 .round-btn{
     border-radius: 48px;
@@ -206,9 +210,12 @@ footer h4{
     margin-right: 15px;
 
 }
-.social-links .links li :hover{
-    opacity: 0.5;
-}
 .helpful-links ul li{
     margin-bottom: 4%;
+}
+.helpful-links ul li a:hover{
+    color: var(--cyan);
+}
+.social-links .links li :hover {
+    filter: invert(97%) sepia(100%) saturate(7499%) hue-rotate(103deg) brightness(102%) contrast(103%);
 }
