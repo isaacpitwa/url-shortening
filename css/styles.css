@@ -81,6 +81,9 @@ section.landing nav ul.buttons{
     color: var(--gray);
     font-weight: 500;
 }
+.landing li a:hover {
+    color: var(--very-dark-blue);
+}
 .landing li{
     padding: 0 8px;
 }
