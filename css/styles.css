@@ -186,6 +186,7 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     background-color: var(--very-dark-blue);
+    padding: 4% 6%;
     
 }
 footer ul{
@@ -196,4 +197,8 @@ footer ul{
 footer ul a{
     text-decoration: none;
     color: var(--grayish-violet);
+}
+footer h4{
+    color: white;
+    font-weight: 400;
 }
